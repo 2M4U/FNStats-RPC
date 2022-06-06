@@ -1,0 +1,13 @@
+{
+  "RPC_CLIENT_ID": "982660721026433114",
+  "EPIC_USERNAME": "YOUR_USERNAME",
+  "API_KEY": "API_KEY_HERE",
+  "ASSETS": { "large_img_key": "fn", "small_img_key": "stats" },
+  "BUTTONS": {
+    "one": { "label": "Twitch [Fortnite Drops Enabled]", "url": "https://twitch.tv/2M4U" },
+    "two": {
+      "label": "Powered By Fortnite-API.com",
+      "url": "https://fortnite-api.com/"
+    }
+  }
+}
