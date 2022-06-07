@@ -21,6 +21,7 @@ async function GetStats() {
       },
     }
   );
+  
   let lvl = res.data.data.battlePass.level;
   let wins = res.data.data.stats.all.overall.wins;
   let kills = res.data.data.stats.all.overall.kills;
@@ -49,8 +50,8 @@ async function Stats(bp, w, k, d, p) {
         url: BUTTONS.one.url,
       },
       {
-        label: "Powered By Fortnite-API.com",
-        url: "https://fortnite-api.com/?utm_source=2G4U#6809_RPC",
+        label: BUTTONS.two.label,
+        url: BUTTONS.two.url,
       },
     ],
   });
